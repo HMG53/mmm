@@ -1,0 +1,101 @@
+body {
+  padding-top: 65px;
+}
+
+header {
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f4483e;
+}
+
+.view .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.view .list a {
+  width: 31.33%;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 5px 1%;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.view .list a img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+body {
+  padding: 50px 0;
+  font-size: 16px;
+  background: #efefef;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background: #f4483e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 5px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 185px;
+  height: 100%;
+  background-origin: content-box;
+  background-clip: content-box;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.search {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  padding: 1px;
+}
+
+/* .search::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background: url("../images/icon_bar.png") -62px 0px;
+  background-size: 293px 176px;
+  position: absolute;
+  top: .05rem;
+  left: .1rem;
+} */
+
+.search input {
+  border-radius: 20px;
+  text-indent: 20px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.login {
+  width: 34px;
+  height: 34px;
+  padding-top: 5px;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=public.css.map */
